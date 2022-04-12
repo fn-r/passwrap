@@ -1,0 +1,27 @@
+.column {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"]:disabled {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 2em;
+    height: 2em;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #E600E9;
+}
+
+.is-linear-1 {
+    background: linear-gradient(to right, #0076dd, #e600e9);
+    color: white;
+}
+
+.is-linear-1:hover {
+    background: linear-gradient(to left, #0076dd, #e600e9);
+    color: white;
+}
