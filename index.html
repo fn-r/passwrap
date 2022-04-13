@@ -38,18 +38,30 @@
                                         <input class="input has-text-centered" type="text" disabled>
                                     </div>
                                 </div>
+                                <div class="field">
+                                    <div class="control">
+                                        <div class="column">
+                                            <input class="mr-2" type="range" value="12" min="8" max="20"/>
+                                            <output id="rangevalue">12</output>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="columns">
+                                    <div class="column">
+                                        <input class="checkbox mr-2" type="checkbox" name="uppercase">
+                                        <small class="has-text-grey-dark">Uppercase</small>
+                                    </div>
+                                    <div class="column none">
+                                        <input checked class="checkbox mr-2" type="checkbox" name="lowercase">
+                                        <small class="has-text-grey-dark">Lowercase</small>
+                                    </div>
                                     <div class="column">
                                         <input class="checkbox mr-2" type="checkbox" name="numbers">
                                         <small class="has-text-grey-dark">Numbers</small>
                                     </div>
                                     <div class="column">
-                                        <input class="checkbox mr-2" type="checkbox" name="terms" value="1">
+                                        <input class="checkbox mr-2" type="checkbox" name="symbols">
                                         <small class="has-text-grey-dark">Symbols</small>
-                                    </div>
-                                    <div class="column">
-                                        <input class="checkbox mr-2" type="checkbox" name="terms" value="1">
-                                        <small class="has-text-grey-dark">Uppercase</small>
                                     </div>
                                 </div>
                                 <button class="button is-linear-1 mb-3 is-fullwidth">Generate Password</button>

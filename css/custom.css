@@ -25,3 +25,15 @@ input[type="checkbox"]:checked {
     background: linear-gradient(to left, #0076dd, #e600e9);
     color: white;
 }
+
+.none {
+    display: none;
+}
+
+input[type="range"] {
+    width: 92%;
+    -webkit-appearance: none;
+    background: linear-gradient(to right, #0076dd, #e600e9);
+    height: 7px;
+    border-radius: 5px;
+}
