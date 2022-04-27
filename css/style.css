@@ -1,0 +1,39 @@
+.column {
+    display: flex;
+    align-items: center
+}
+
+input[type="text"]:disabled {
+    cursor: pointer
+}
+
+input[type="checkbox"] {
+    width: 2em;
+    height: 2em
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #E600E9
+}
+
+.is-linear-1 {
+    background: linear-gradient(to right, #0076dd, #e600e9);
+    color: #fff
+}
+
+.is-linear-1:hover {
+    background: linear-gradient(to left, #0076dd, #e600e9);
+    color: #fff
+}
+
+.none {
+    display: none
+}
+
+input[type="range"] {
+    width: 92%;
+    -webkit-appearance: none;
+    background: linear-gradient(to right, #0076dd, #e600e9);
+    height: 7px;
+    border-radius: 5px
+}
