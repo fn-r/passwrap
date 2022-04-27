@@ -2,8 +2,8 @@
 <p align="center">
   • 
   <a href="#about">About</a> •
+  <a href="#technology-stack">Tech Stack</a> •
   <a href="#optimizations">Optimizations</a> •
-  <a href="#technology-stack">Technology Stack</a> •
   <a href="#lesson-learned">Lesson Learned</a> •
   <a href="#more-projects">More Projects</a> •
 </p>
@@ -15,11 +15,11 @@ A website that helps to generate a password allowing you to better secure yourse
     <img src="https://github.com/fn-r/portfolio/blob/main/images/gif/passwrap.gif" width="100%" alt="Passwrap"/>
 </a>
 
-## Optimizations
-I improve this project 
-
-## Technology Stack: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5) ![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3) ![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
+## Tech Stack: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5) ![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3) ![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
 My learning for this project was focused on the functionality of generating the password for the user. The UI are made simple as user would go to this site to grab the password. To make it easier for the user to adjust the password length, the slider / range was used.
+
+## Optimizations
+When I improve this project, I decided to challenge myself and use [Bulma](https://bulma.io/) as it has a minimalistic UI that is perfect to this project. I have till now done most of my projects using [Bootstrap](https://getbootstrap.com/).
 
 ## Lesson Learned
 Readability:
